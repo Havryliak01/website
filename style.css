@@ -215,8 +215,8 @@ h4 {
 
 /* Hero Section */
 .hero {
-    padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .hero-title {
@@ -275,7 +275,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 3rem;
-    padding: 6rem 0;
+    padding: 4rem 0;
     border-top: 1px solid var(--border);
     scroll-margin-top: 5rem;
 }
@@ -340,6 +340,16 @@ h4 {
     font-weight: 500;
 }
 
+.project-title a {
+    text-decoration: none;
+    color: inherit;
+    transition: color var(--transition-fast);
+}
+
+.project-title a:hover {
+    color: var(--text-secondary);
+}
+
 .project-item:hover .project-title {
     color: var(--text-primary);
 }
@@ -352,7 +362,9 @@ h4 {
 }
 
 .project-meta {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     color: var(--text-tertiary);
     display: flex;
     align-items: center;
@@ -362,16 +374,17 @@ h4 {
 /* Stats Grid */
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    gap: 0 2.25rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
     margin-bottom: 1.75rem;
-    justify-content: start;
 }
 
 .stat {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    align-items: center;
+    text-align: center;
 }
 
 .stat-number {
@@ -383,7 +396,7 @@ h4 {
 }
 
 .stat-label {
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--text-tertiary);
@@ -530,7 +543,7 @@ h4 {
     .grid-section {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-        padding: 4rem 0;
+        padding: 2.5rem 0;
     }
 
     .section-title {
@@ -556,8 +569,8 @@ h4 {
     }
 
     .stats-grid {
-        grid-template-columns: repeat(2, auto);
-        gap: 1.25rem 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem 0;
     }
 
     .project-item {
@@ -582,8 +595,8 @@ h4 {
     }
 
     .hero {
-        padding-top: 2rem;
-        padding-bottom: 4rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 
     .brand-logo {
