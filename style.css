@@ -547,6 +547,10 @@ h4 {
         max-height: 300px;
     }
 
+    .icon-links {
+        justify-content: center;
+    }
+
     .library-grid {
         grid-template-columns: 1fr;
     }
@@ -592,11 +596,11 @@ h4 {
         width: 140px;
     }
 
-    .nav-links {
-        gap: 1rem;
+    .nav-links a {
+        display: none;
     }
 
-    .nav-links a {
-        font-size: 0.85rem;
+    .nav-links .theme-toggle {
+        display: flex;
     }
 }
