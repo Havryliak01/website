@@ -1,0 +1,37 @@
+# Nick Havryliak — Personal Site
+
+> Second-time, venture-backed founder building at the intersection of AI and Capital markets.
+
+## Who
+
+Nick Havryliak (also Mykola Havryliak) is a founder and systems thinker. He is CEO and co-founder of Assisterr AI. Born in Ukraine, shaped professionally in the United Kingdom, currently based in Asia.
+
+## Current Focus
+
+Assisterr AI — infrastructure for the Service-as-Software transition. Lets anyone build, deploy, and monetize Specialized Language Models (SLMs) and AI agents. 1m+ monthly users, 36k agents deployed, $2.8M raised. Backed by Google for Startups, Outlier Ventures, Web3.com, Moonhill Capital, Echo, and Taisu Ventures.
+
+## What He's Exploring
+
+- Agent quality and evaluation — how agents move from assist to execute at scale
+- Private and venture debt tokenization — making private credit yield internet-native
+- RWA secondary market liquidity — what it takes to make tokenized assets meaningfully liquid
+
+## Background
+
+Alumni of Cambridge Judge Business School Entrepreneurship Centre, Entrepreneur First, Outlier Ventures, and Google for Startups.
+
+## Writing & Talks
+
+- Assisterr raises $2.8M (EU Startups)
+- From ReAct Agents to A2A On-Chain Economies (Agents Day, Dubai)
+- Specialized AI by Assisterr (Cointelegraph Interview)
+- SLMs & Decentralized AI (YouTube)
+- The Role of AI & Crypto in Consumer Apps (Super AI, Singapore)
+- Building a Human-Driven Data Economy (Berlin, DePIN Day)
+
+## Contact
+
+- Email: nick.havryliak@gmail.com
+- X: https://x.com/nick_havryliak
+- LinkedIn: https://www.linkedin.com/in/havryliak/
+- Telegram: https://t.me/nick_havryliak

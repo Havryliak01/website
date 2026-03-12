@@ -1,0 +1,21 @@
+<svg width="980" height="360" viewBox="0 0 980 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nick Havryliak logo option 2</title>
+  <desc id="desc">Minimal logo with monad symbol on the left and stacked Nick Havryliak wordmark on the right.</desc>
+  <style>
+    .mark { stroke: #111111; stroke-width: 4; }
+    .dot { fill: #111111; }
+    .name {
+      fill: #111111;
+      font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      text-rendering: geometricPrecision;
+    }
+  </style>
+
+  <circle class="mark" cx="120" cy="180" r="70"></circle>
+  <circle class="dot" cx="120" cy="180" r="10"></circle>
+
+  <text class="name" x="235" y="162" font-size="88">Nick</text>
+  <text class="name" x="235" y="258" font-size="88">Havryliak</text>
+</svg>
