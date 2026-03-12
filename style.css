@@ -237,7 +237,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.75rem;
-    align-items: stretch;
+    align-items: start;
 }
 
 .about-journey {
@@ -247,8 +247,8 @@ h4 {
 }
 
 .about-photo {
-    min-height: 0;
     overflow: hidden;
+    aspect-ratio: 3 / 2;
 }
 
 .about-photo img {
@@ -555,10 +555,6 @@ h4 {
     .about-bottom {
         grid-template-columns: 1fr;
         gap: 2rem;
-    }
-
-    .about-photo {
-        aspect-ratio: 3 / 2;
     }
 
     .icon-links {
