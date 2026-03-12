@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@1,400&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1280px;
+    height: 640px;
+    overflow: hidden;
+    background: #0A0A0A;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .card {
+    width: 1280px;
+    height: 640px;
+    background: #0A0A0A;
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 56px 96px 52px;
+    gap: 0;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: #27272A;
+  }
+
+  /* TOP ROW */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .site-url {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #52525B;
+    font-weight: 500;
+    padding-top: 2px;
+  }
+
+  .top-right {
+    text-align: right;
+  }
+
+  .assisterr-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3F3F46;
+    margin-bottom: 3px;
+  }
+
+  .assisterr-name {
+    font-size: 14px;
+    color: #71717A;
+    font-weight: 400;
+  }
+
+  /* MIDDLE */
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .name {
+    font-size: 88px;
+    font-weight: 500;
+    color: #EDEDED;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 14px;
+  }
+
+  .name em {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .role {
+    font-size: 21px;
+    color: #71717A;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+  }
+
+  /* BOTTOM ROW */
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 40px;
+  }
+
+  .stat + .stat {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid #27272A;
+  }
+
+  .stat:last-child {
+    padding-right: 0;
+  }
+
+  .stat-number {
+    font-size: 26px;
+    font-weight: 500;
+    color: #EDEDED;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #52525B;
+    line-height: 1;
+  }
+
+  .tagline {
+    font-size: 14px;
+    color: #3F3F46;
+    letter-spacing: 0.04em;
+    text-align: right;
+    line-height: 1.5;
+  }
+
+  .tagline em {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #52525B;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <div class="site-url">havryliak.com</div>
+      <div class="top-right">
+        <div class="assisterr-label">Founder & CEO</div>
+        <div class="assisterr-name">Assisterr AI</div>
+      </div>
+    </div>
+
+    <div class="middle">
+      <div class="name">Nick <em>Havryliak</em></div>
+      <div class="role">Building at the intersection of AI and Capital markets.</div>
+    </div>
+
+    <div class="bottom">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">$2.8M</div>
+          <div class="stat-label">Raised</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">1m+</div>
+          <div class="stat-label">Monthly users</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">36k</div>
+          <div class="stat-label">Agents deployed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">B2B integrations</div>
+        </div>
+      </div>
+      <div class="tagline">Expanding human <em>agency.</em></div>
+    </div>
+  </div>
+</body>
+</html>
