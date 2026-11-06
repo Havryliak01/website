@@ -1,436 +1,280 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nick Havryliak — Founder, AI & Tokenization</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-
-    <!-- Theme color (browser chrome on mobile) -->
-    <meta name="theme-color" content="#0A0A0A" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#FAFAFA" media="(prefers-color-scheme: light)" />
-
-    <!-- SEO -->
-    <meta name="description"
-        content="Nick Havryliak — second-time venture-backed founder building at the intersection of AI and Capital markets. Creator of Assisterr AI. Thinking about tokenization, ownership, and AI-native systems." />
-    <meta name="author" content="Nick Havryliak" />
-    <meta name="keywords" content="Nick Havryliak, Assisterr, AI founder, tokenization, SLM, specialized language models, venture-backed, Web3, capital markets, RWA, real world assets, private credit" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://havryliak.com" />
-
-    <!-- Social profile ownership signals -->
-    <link rel="me" href="https://x.com/nick_havryliak" />
-    <link rel="me" href="https://www.linkedin.com/in/havryliak/" />
-    <link rel="me" href="mailto:nick.havryliak@gmail.com" />
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Nick Havryliak — Founder, AI & Tokenization" />
-    <meta property="og:description"
-        content="Second-time venture-backed founder building at the intersection of AI and Capital markets. Creator of Assisterr AI. 1m+ MAU, $2.8M raised." />
-    <meta property="og:type" content="profile" />
-    <meta property="og:url" content="https://havryliak.com" />
-    <meta property="og:image" content="https://havryliak.com/dagi_cropped.JPG" />
-    <meta property="og:image:width" content="1600" />
-    <meta property="og:image:height" content="1060" />
-    <meta property="og:image:alt" content="Nick Havryliak speaking at dAGI Summit" />
-    <meta property="profile:first_name" content="Nick" />
-    <meta property="profile:last_name" content="Havryliak" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@nick_havryliak" />
-    <meta name="twitter:creator" content="@nick_havryliak" />
-    <meta name="twitter:title" content="Nick Havryliak — Founder, AI & Tokenization" />
-    <meta name="twitter:description"
-        content="Second-time venture-backed founder building at the intersection of AI and Capital markets. Creator of Assisterr AI." />
-    <meta name="twitter:image" content="https://havryliak.com/dagi_cropped.JPG" />
-    <meta name="twitter:image:alt" content="Nick Havryliak speaking at dAGI Summit" />
-
-    <!-- Structured Data: ProfilePage + Person -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfilePage",
-      "dateModified": "2026-03-12",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Nick Havryliak",
-        "alternateName": "Mykola Havryliak",
-        "url": "https://havryliak.com",
-        "email": "nick.havryliak@gmail.com",
-        "image": "https://havryliak.com/dagi_cropped.JPG",
-        "jobTitle": "Founder & CEO",
-        "description": "Second-time venture-backed founder building at the intersection of AI and Capital markets. Creator of Assisterr AI. Focused on tokenization, specialized language models, and AI-native systems.",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Assisterr AI",
-          "url": "https://assisterr.ai"
-        },
-        "alumniOf": [
-          {
-            "@type": "Organization",
-            "name": "Cambridge Judge Business School Entrepreneurship Centre",
-            "url": "https://www.jbs.cam.ac.uk"
-          },
-          {
-            "@type": "Organization",
-            "name": "Entrepreneur First",
-            "url": "https://www.joinef.com"
-          },
-          {
-            "@type": "Organization",
-            "name": "Outlier Ventures",
-            "url": "https://outlierventures.io"
-          },
-          {
-            "@type": "Organization",
-            "name": "Google for Startups",
-            "url": "https://startup.google.com"
-          }
-        ],
-        "knowsAbout": [
-          "Artificial Intelligence",
-          "Tokenization",
-          "Specialized Language Models",
-          "AI Agents",
-          "Web3",
-          "Capital Markets",
-          "Real World Assets",
-          "Private Credit",
-          "Venture Capital"
-        ],
-        "nationality": {
-          "@type": "Country",
-          "name": "Ukraine"
-        },
-        "sameAs": [
-          "https://www.linkedin.com/in/havryliak/",
-          "https://x.com/nick_havryliak",
-          "https://assisterr.ai",
-          "https://t.me/nick_havryliak"
-        ]
-      }
-    }
-    </script>
-
-    <!-- Preload critical above-fold asset -->
-    <link rel="preload" href="logo nick havryliak.svg" as="image" type="image/svg+xml" fetchpriority="high" />
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
-        rel="stylesheet" />
-
-    <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nick Havryliak — Founder, investor, explorer</title>
+<meta name="description" content="Repeat founder, investor, father and explorer. Building financial infrastructure for the agent economy in San Francisco.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nick Havryliak">
+<meta property="og:title" content="Nick Havryliak — Founder, investor, explorer">
+<meta property="og:description" content="Repeat founder, investor, father and explorer. Building financial infrastructure for the agent economy in San Francisco.">
+<meta property="og:url" content="https://havryliak.com/">
+<meta property="og:image" content="https://havryliak.com/assets/social-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nick_havryliak">
+<link rel="canonical" href="https://havryliak.com/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&amp;display=swap">
+<style>
+body{margin:0;background:#F6F4EF}
+a{color:#1B1A17;text-decoration-thickness:1px;text-underline-offset:0.2em}
+a:hover{color:#9C3220}
+a:focus-visible,button:focus-visible,textarea:focus-visible{outline:2px solid #D1502F;outline-offset:3px}
+textarea::placeholder{color:#8F8A80}
+::selection{background:#1B1A17;color:#F6F4EF}
+@media (prefers-reduced-motion: no-preference){
+  html{scroll-behavior:smooth}
+  @keyframes dcRise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  @keyframes dcDraw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes dcPop{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+  .rise{animation:dcRise .8s cubic-bezier(.2,.7,.3,1) both}
+  .draw{transform-origin:left center;animation:dcDraw 1s cubic-bezier(.2,.7,.3,1) both}
+  .pop{animation:dcPop .5s cubic-bezier(.2,1.5,.4,1) both}
+  .stop .dot{transition:transform .35s cubic-bezier(.2,.7,.3,1)}
+  .stop:hover .dot{transform:scale(1.45)}
+  .stop .stop-line{transition:background .35s ease}
+  .stop:hover .stop-line{background:#1B1A17}
+  .next .arrow{transition:transform .3s cubic-bezier(.2,.7,.3,1)}
+  .next:hover .arrow{transform:translateX(4px)}
+}
+.skip{position:absolute;left:-9999px;top:16px}
+.skip:focus{left:16px;z-index:10;background:#1B1A17;color:#F6F4EF;padding:12px 18px;border-radius:999px}
+</style>
 </head>
+<body>
+<div style="background: #F6F4EF; color: #1B1A17; font-family: 'Newsreader', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 19px; line-height: 1.6; container-type: inline-size; position: relative">
 
-<body class="fade-in">
-    <div class="noise-bg"></div>
+  <a href="#main" class="skip" style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 15px">Skip to content</a>
 
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="/" class="brand">
-                <img src="logo nick havryliak.svg" alt="Nick Havryliak logo" class="brand-logo" />
-            </a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#work">Focus</a>
-                <a href="#writing">Media</a>
-                <a href="#connect">Connect</a>
-                <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme" title="Toggle theme">
-                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </button>
-            </div>
-        </div>
+  <header style="max-width: 1200px; margin: 0 auto; padding: 24px 32px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 32px">
+    <a href="#top" style="display: flex; align-items: center; min-height: 48px">
+      <img src="assets/logo-nick-havryliak.svg" alt="Nick Havryliak" style="height: 54px; width: auto; display: block">
+    </a>
+    <nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 28px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 15px">
+      <a href="story.html" style="display: flex; align-items: center; min-height: 44px; text-decoration: none">My story</a>
+      <a href="beliefs.html" style="display: flex; align-items: center; min-height: 44px; text-decoration: none">Beliefs</a>
     </nav>
+  </header>
 
-    <main class="container">
+  <main id="main">
 
-        <!-- Hero Section -->
-        <section class="hero reveal">
-            <h1 class="hero-title">Expanding human <span class="italic-serif">agency.</span></h1>
-            <p class="hero-subtitle">
-                I’m a founder and systems thinker working at the intersection of AI and Capital markets — drawn to the
-                question of who owns the value when software does the work.
-            </p>
-        </section>
+    <!-- 1. HERO -->
+    <section id="top" style="max-width: 1200px; margin: 0 auto; padding: 40px 32px 72px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 64px">
+      <div class="rise" style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+        <h1 style="margin: 0; max-width: 26ch; font-weight: 300; font-size: clamp(2.25rem, 4.2cqi, 3.5rem); line-height: 1.08; letter-spacing: -0.025em; text-wrap: balance">Entrepreneurship is my art. I build to express what I see.</h1>
+        <p style="margin: 0; max-width: 34rem; font-size: clamp(1.25rem, 1.8cqi, 1.5rem); line-height: 1.45; text-wrap: pretty">Repeat founder, investor, father and explorer.</p>
+      </div>
+      <div class="rise" style="flex: 1 1 380px; min-width: 0; animation-delay: .12s">
+        <img src="assets/hero.jpg" alt="Nick sitting cross-legged on a boulder under an arching tree, arms open, eyes closed" style="width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 2px">
+      </div>
+    </section>
 
-        <!-- About Section -->
-        <section id="about" class="grid-section reveal">
-            <div class="section-header">
-                <h2 class="section-title">01 / About</h2>
-            </div>
-            <div class="section-content text-content">
-                <p>As a second-time, venture-backed founder, I’ve become more pragmatic about products. I increasingly
-                    see them as wrappers around economic activity, incentives, and human behavior.</p>
-                <p>For two decades, software monetized productivity. I think the next decade monetizes replacement —
-                    AI that doesn’t assist work, but does it. I’m building at that edge, where the unit of value shifts
-                    from seat to outcome.</p>
-                <p>Born in Ukraine, shaped professionally in the United Kingdom, and now based in Asia.</p>
-                <div style="margin-top: 2rem;">
-                    <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-tertiary); margin-bottom: 0.75rem;">Part of my entrepreneurial journey</p>
-                    <p style="font-size: 1.05rem; color: var(--text-secondary); margin: 0; line-height: 1.8;">
-                        Cambridge Judge Business School Entrepreneurship Centre<br>
-                        Entrepreneur First<br>
-                        Outlier Ventures<br>
-                        Google for Startups
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Work -->
-        <section id="work" class="grid-section reveal">
-            <div class="section-header">
-                <h2 class="section-title">02 / Focus</h2>
-            </div>
-            <div class="section-content">
-
-                <div class="project-list">
-                        <div class="project-item">
-                            <div class="project-info" style="max-width: 100%;">
-                                <h3 class="project-title"><a href="https://assisterr.ai" target="_blank" rel="noopener">Assisterr AI</a></h3>
-                                <div class="project-meta" style="margin-bottom: 0.75rem;">
-                                    <span>Infrastructure for the Service-as-Software transition</span>
-                                </div>
-                                <p class="project-desc">The market is moving from seat-based software to delivered outcomes. Assisterr is
-                                    the infrastructure layer for that shift — letting anyone build, deploy, and monetize
-                                    Specialized Language Models and AI agents. Not a tool to help someone work. A stack
-                                    you own that earns.</p>
-                                <div class="stats-grid">
-                                    <div class="stat">
-                                        <span class="stat-number">$2.8M</span>
-                                        <span class="stat-label">Raised</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-number">1m+</span>
-                                        <span class="stat-label">Monthly users</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-number">36k+</span>
-                                        <span class="stat-label">Agents deployed</span>
-                                    </div>
-                                    <div class="stat">
-                                        <span class="stat-number">200+</span>
-                                        <span class="stat-label">B2B integrations</span>
-                                    </div>
-                                </div>
-                                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-                                    <div style="display: flex; flex-direction: column; gap: 0.25rem;">
-                                        <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-tertiary);">Notable Backers</span>
-                                        <span style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.5;">Google for Startups, Outlier Ventures, Web3.com, Moonhill Capital, Echo.xyz<br>Taisu Ventures, Decasonic, Contango Digital, X Ventures</span>
-                                    </div>
-                                    <div style="display: flex; flex-direction: column; gap: 0.25rem;">
-                                        <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-tertiary);">Go-to-Market Partners</span>
-                                        <span style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.5;">Binance Alpha, Bybit, Kraken, KuCoin, MEXC, and 10+ others</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </section>
-
-        <!-- What I'm Exploring -->
-        <section class="grid-section reveal">
-            <div class="section-header">
-                <h2 class="section-title">03 / What I'm Exploring</h2>
-            </div>
-            <div class="section-content">
-                <div class="project-list" style="gap: 1.5rem; display: flex; flex-direction: column;">
-                    <div>
-                        <h4 style="font-size: 1.1rem; font-weight: 500; margin-bottom: 0.25rem;">Agent quality and evaluation</h4>
-                        <p style="color: var(--text-secondary); font-size: 1rem; margin: 0; line-height: 1.6;">The trust ladder: how agents move from assist to execute — and what infrastructure makes that transition reliable at scale.</p>
-                    </div>
-                    <div>
-                        <h4 style="font-size: 1.1rem; font-weight: 500; margin-bottom: 0.25rem;">Private and venture debt tokenization</h4>
-                        <p style="color: var(--text-secondary); font-size: 1rem; margin: 0; line-height: 1.6;">How private credit and its yield can become more internet-native.</p>
-                    </div>
-                    <div>
-                        <h4 style="font-size: 1.1rem; font-weight: 500; margin-bottom: 0.25rem;">RWA secondary market liquidity</h4>
-                        <p style="color: var(--text-secondary); font-size: 1rem; margin: 0; line-height: 1.6;">What it takes to make tokenized assets meaningfully liquid.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Writing & Books -->
-        <section id="writing" class="grid-section reveal">
-            <div class="section-header">
-                <h2 class="section-title">04–05 / Media</h2>
-            </div>
-            <div class="section-content">
-                <div class="library-grid">
-                    <div class="library-column">
-                        <h3 class="column-title">Writing & Talks</h3>
-                        <ul class="clean-list writing-list">
-                            <li><a href="https://www.eu-startups.com/2025/05/british-startup-assisterr-raises-e2-8-million-to-enable-users-to-create-and-monetise-ai-agents-without-having-to-write-code/" target="_blank" rel="noopener">
-                                <span class="link-body">Assisterr raises $2.8M <span class="link-arrow">↗</span><span class="list-meta">EU Startups</span></span>
-                            </a></li>
-                            <li><a href="https://www.youtube.com/watch?v=zmlKNpVwQ2A" target="_blank" rel="noopener">
-                                <span class="link-body">From ReAct Agents to A2A On-Chain Economies <span class="link-arrow">↗</span><span class="list-meta">Agents Day, Dubai</span></span>
-                            </a></li>
-                            <li><a href="https://cointelegraph.com/sponsored/small-language-models-impact-on-ai-and-blockchain-interview-with-assisterr" target="_blank" rel="noopener">
-                                <span class="link-body">Specialized AI by Assisterr <span class="link-arrow">↗</span><span class="list-meta">Cointelegraph Interview</span></span>
-                            </a></li>
-                            <li><a href="https://www.youtube.com/watch?v=eEqQtnG7b7s" target="_blank" rel="noopener">
-                                <span class="link-body">SLMs &amp; Decentralized AI <span class="link-arrow">↗</span><span class="list-meta">YouTube Show</span></span>
-                            </a></li>
-                            <li><a href="https://www.youtube.com/watch?v=HHTRNkyvcSk&t=1s" target="_blank" rel="noopener">
-                                <span class="link-body">The Role of AI &amp; Crypto in Consumer Apps <span class="link-arrow">↗</span><span class="list-meta">Super AI, Singapore</span></span>
-                            </a></li>
-                            <li><a href="https://www.youtube.com/watch?v=UwZE60eoN3U" target="_blank" rel="noopener">
-                                <span class="link-body">Building a Human-Driven Data Economy <span class="link-arrow">↗</span><span class="list-meta">Berlin, DePIN Day</span></span>
-                            </a></li>
-                        </ul>
-                    </div>
-                    <div class="library-column">
-                        <h3 class="column-title">Books That Shaped Me</h3>
-                        <ul class="clean-list">
-                            <li><a href="https://www.goodreads.com/book/show/588138.The_Hero_With_a_Thousand_Faces"
-                                    target="_blank" rel="noopener">The Hero with a Thousand Faces <span
-                                        class="list-meta">Joseph Campbell</span></a></li>
-                            <li><a href="https://www.goodreads.com/book/show/1613682.Trilogy_of_desire" target="_blank"
-                                    rel="noopener">Trilogy of Desire <span class="list-meta">Theodore Dreiser</span></a></li>
-                            <li><a href="https://www.goodreads.com/book/show/662.Atlas_Shrugged" target="_blank"
-                                    rel="noopener">Atlas Shrugged <span class="list-meta">Ayn Rand</span></a></li>
-                            <li><a href="https://www.goodreads.com/book/show/82256.The_Sovereign_Individual"
-                                    target="_blank" rel="noopener">The Sovereign Individual <span
-                                        class="list-meta">Davidson &amp; Rees-Mogg</span></a></li>
-                            <li><a href="https://thenetworkstate.com" target="_blank" rel="noopener">The Network State
-                                    <span class="list-meta">Balaji Srinivasan</span></a></li>
-                            <li><a href="https://www.goodreads.com/book/show/18050143-zero-to-one" target="_blank"
-                                    rel="noopener">Zero to One <span class="list-meta">Peter Thiel</span></a></li>
-                            <li><a href="https://www.goodreads.com/book/show/100779.Reminiscences_of_a_Stock_Operator"
-                                    target="_blank" rel="noopener">Reminiscences of a Stock Operator <span
-                                        class="list-meta">Edwin Lefèvre</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Connect -->
-        <section id="connect" class="grid-section reveal">
-            <div class="section-header">
-                <h2 class="section-title">06 / Connect</h2>
-            </div>
-            <div class="section-content">
-                <div class="about-bottom">
-                    <div class="about-journey text-content">
-                        <p>I'm intentional about where I spend time and attention.</p>
-                        <p>If we share real intellectual overlap, a strong collaboration angle, or a concrete opportunity worth
-                            exploring, I'd be glad to connect.</p>
-                        <div class="icon-links">
-                            <a href="mailto:nick.havryliak@gmail.com" rel="me" aria-label="Email" title="Email">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                            </a>
-                            <a href="https://t.me/nick_havryliak" target="_blank" rel="noopener" aria-label="Telegram" title="Telegram">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a2.25 2.25 0 0 0 .126 4.073l3.9 1.205 2.306 6.54a1.125 1.125 0 0 0 1.973.3l2.684-3.357 4.026 2.986a2.25 2.25 0 0 0 3.497-1.387l2.812-16.5a2.25 2.25 0 0 0-2.802-2.575z"/></svg>
-                            </a>
-                            <a href="https://x.com/nick_havryliak" target="_blank" rel="noopener me" aria-label="X (Twitter)" title="X (Twitter)">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            </a>
-                            <a href="https://www.linkedin.com/in/havryliak/" target="_blank" rel="noopener me" aria-label="LinkedIn" title="LinkedIn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="about-photo">
-                        <img src="dagi_cropped.JPG" alt="Nick Havryliak speaking at dAGI Summit" width="1600" height="1060" loading="lazy" />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-left">
-                <p>&copy; <span id="year"></span> Nick (Mykola) Havryliak.</p>
-            </div>
-            <div class="footer-right">
-                <p>Expanding human agency.</p>
-            </div>
+    <!-- 2. AFFILIATIONS -->
+    <section aria-label="Affiliations" style="border-top: 1px solid #DCD8CF; border-bottom: 1px solid #DCD8CF">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 0 32px; box-sizing: border-box; display: flex; flex-direction: column">
+        <div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 26px 0">
+          <p style="flex: 0 0 210px; margin: 0; padding-top: 4px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #8F8A80">Alum</p>
+          <ul style="flex: 1 1 320px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 16px; font-size: 17px; line-height: 1.5">
+            <li>Cambridge Judge Business School</li>
+            <li aria-hidden="true" style="color: #C9C4B9">·</li>
+            <li>Entrepreneur First</li>
+            <li aria-hidden="true" style="color: #C9C4B9">·</li>
+            <li>Outlier Ventures</li>
+            <li>Google for Startups</li>
+          </ul>
         </div>
-    </footer>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px 32px; padding: 26px 0; border-top: 1px solid #DCD8CF">
+          <p style="flex: 0 0 210px; margin: 0; padding-top: 4px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #8F8A80">Angel &amp; Limited Partner</p>
+          <ul style="flex: 1 1 320px; min-width: 0; margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 16px; font-size: 17px; line-height: 1.5">
+            <li>Dnipro VC</li>
+            <li aria-hidden="true" style="color: #C9C4B9">·</li>
+            <li>Contango VC</li>
+            <li aria-hidden="true" style="color: #C9C4B9">·</li>
+            <li>100+ YC-backed teams</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <script>
-        // Set Current Year
-        document.getElementById('year').textContent = new Date().getFullYear();
+    <!-- 3. THE IDEA -->
+    <section id="idea" style="background: #EEEBE4">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 88px 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 40px">
+        <div style="display: flex; flex-direction: column; gap: 18px; max-width: 46rem">
+          <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #66625A">Why I build</p>
+          <h2 style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%)">Why I build</h2>
+          <blockquote style="margin: 0; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-style: italic; font-size: clamp(1.5rem, 2.6cqi, 2.125rem); line-height: 1.3">Before enlightenment, chop wood, carry water.</p>
+            <p style="margin: 0; font-style: italic; font-size: clamp(1.5rem, 2.6cqi, 2.125rem); line-height: 1.3">After enlightenment, chop wood, carry water.</p>
+            <footer style="margin-top: 8px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #8F8A80">Zen proverb</footer>
+          </blockquote>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 24px 64px">
+          <p style="flex: 1 1 320px; min-width: 0; max-width: 32rem; margin: 0; color: #45423C; text-wrap: pretty">I’ve built things my whole adult life. What changed is where it comes from. The work doesn’t change. The person doing it does.</p>
+          <p style="flex: 1 1 320px; min-width: 0; max-width: 32rem; margin: 0; color: #45423C; text-wrap: pretty">I’ve always had more energy than I knew what to do with. It took a long road to learn where to direct it, and what matters.</p>
+        </div>
+      </div>
+    </section>
 
-        // Theme Toggle Logic
-        const html = document.documentElement;
-        const toggleBtn = document.getElementById('themeToggle');
+    <!-- 4. JOURNEY -->
+    <section id="journey" style="background: #191816; color: #EEEBE4">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 56px">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 48px">
+          <div style="display: flex; flex-direction: column; gap: 14px">
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #A8A397">Chop wood · the work</p>
+            <h2 style="margin: 0; font-weight: 400; font-size: clamp(1.875rem, 3.2cqi, 2.75rem); line-height: 1.06; letter-spacing: -0.02em; color: #EEEBE4">How I got here</h2>
+          </div>
+          <p style="max-width: 24rem; margin: 0; color: #A8A397; text-wrap: pretty">From a town in western Ukraine to San Francisco.</p>
+        </div>
 
-        // Check Local Storage or System Pref
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            html.setAttribute('data-theme', savedTheme);
-        } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-            html.setAttribute('data-theme', 'light');
-        }
+        <ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr)); column-gap: 0; row-gap: 48px">
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: 0s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -4.0px; left: 0; display: block; width: 8px; height: 8px; border-radius: 50%; background: #EEEBE4; animation-delay: 0.15s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">I</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">Ukraine</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">Growing up with three sisters, inspired by Cousteau, dreaming of seeing the world.</p>
+          </li>
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: 0.08s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -4.0px; left: 0; display: block; width: 8px; height: 8px; border-radius: 50%; background: #EEEBE4; animation-delay: 0.25s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">II</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">Student years</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">Open World alumnus. Led an NGO, built and monetized a 200k+ member online community.</p>
+          </li>
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: 0.16s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -4.5px; left: 0; display: block; width: 9px; height: 9px; border-radius: 50%; background: #EEEBE4; animation-delay: 0.35s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">III</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">2015–2022</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">Deep in tech: a software agency with a friend, Bitcoin, a first AI/ML startup. Then the war.</p>
+          </li>
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: 0.24s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -4.5px; left: 0; display: block; width: 9px; height: 9px; border-radius: 50%; background: #EEEBE4; animation-delay: 0.45s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">IV</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">UK, 2022–2025</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">Cambridge, the first in my family to study abroad. Entrepreneur First.</p>
+          </li>
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: 0.32s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -5.0px; left: 0; display: block; width: 10px; height: 10px; border-radius: 50%; background: #EEEBE4; animation-delay: 0.55s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">V</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">Assisterr, 2023–2026</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">$2.8M raised, 5M+ users, 42k agents. T1 listings: Kraken, Bybit, Binance Alpha.</p>
+          </li>
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: 0.4s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -5.5px; left: 0; display: block; width: 11px; height: 11px; border-radius: 50%; background: #EEEBE4; animation-delay: 0.65s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">VI</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">Asia, 2025–2026</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">Family-maxxing, practice, grounding.</p>
+          </li>
+          <li class="stop" style="position: relative; padding: 30px 32px 0 0; display: flex; flex-direction: column; gap: 8px">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #B33A22; animation-delay: .48s"></span>
+            <span class="pop" aria-hidden="true" style="position: absolute; top: -11px; left: -8px; display: block; width: 23px; height: 23px; border-radius: 50%; border: 1px solid #B33A22; opacity: 0.45; animation-delay: .8s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -7px; left: -3px; display: block; width: 14px; height: 14px; border-radius: 50%; background: #B33A22; animation-delay: .75s"></span>
+            <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #B33A22">VII</p>
+            <p style="margin: 0; font-size: 21px; line-height: 1.25">San Francisco, now</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px">Back in the market, with an open mind.</p>
+          </li>
+          <li class="stop next" style="position: relative; padding: 30px 32px 0 0">
+            <span class="stop-line draw" aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 1px; background: #4A463F; animation-delay: .56s"></span>
+            <span class="dot pop" aria-hidden="true" style="position: absolute; top: -5.5px; left: 0; display: block; width: 11px; height: 11px; border-radius: 50%; border: 1.5px solid #A8A397; box-sizing: border-box; animation-delay: .9s"></span>
+            <a href="story.html" style="display: flex; flex-direction: column; gap: 8px; color: #EEEBE4; text-decoration: none">
+              <span style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; color: #6E695F">Next</span>
+              <span style="margin: 0; font-size: 21px; line-height: 1.25; display: inline-flex; align-items: center; gap: 10px">Read the whole story<svg class="arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" style="flex: none"><path d="M3 8h10M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+              <span style="margin: 0; font-size: 16px; line-height: 1.55; color: #A8A397; text-wrap: pretty; min-height: 75px; display: block">Seven chapters, and what each one handed to the next.</span>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-        toggleBtn.addEventListener('click', () => {
-            const current = html.getAttribute('data-theme');
-            const next = current === 'dark' ? 'light' : 'dark';
-            html.setAttribute('data-theme', next);
-            localStorage.setItem('theme', next);
-        });
+    <!-- 5. NOW -->
+    <section id="now">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 32px 72px">
+        <div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px">
+            <p style="margin: 0; display: flex; align-items: center; gap: 10px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #B33A22"><span style="display: block; width: 7px; height: 7px; border-radius: 50%; background: #B33A22"></span>Now</p>
+            <p style="margin: 0; display: inline-flex; align-items: center; gap: 7px; padding: 5px 12px 5px 10px; border: 1px solid #C9C4B9; border-radius: 999px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #45423C">
+              <svg width="12" height="14" viewBox="0 0 12 14" fill="none" aria-hidden="true"><path d="M6 13s4.5-4.2 4.5-7.4A4.5 4.5 0 0 0 1.5 5.6C1.5 8.8 6 13 6 13Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"></path><circle cx="6" cy="5.5" r="1.5" fill="currentColor"></circle></svg>
+              San Francisco
+            </p>
+            <p style="margin: 0; display: inline-flex; align-items: center; gap: 7px; padding: 5px 12px 5px 10px; border: 1px solid #C9C4B9; border-radius: 999px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #45423C">
+              <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8s2.2-3.8 6-3.8S14 8 14 8s-2.2 3.8-6 3.8S2 8 2 8Z" stroke="currentColor" stroke-width="1.2"></path><circle cx="8" cy="8" r="1.6" fill="currentColor"></circle><path d="m3 13 10-10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"></path></svg>
+              In stealth
+            </p>
+          </div>
+          <h2 style="margin: 0; font-weight: 400; font-size: clamp(1.875rem, 3.2cqi, 2.75rem); line-height: 1.06; letter-spacing: -0.02em; text-wrap: balance">Building financial infrastructure for the agent economy.</h2>
+        </div>
+        <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px; padding-top: 34px">
+          <p style="margin: 0; font-style: italic; font-size: clamp(1.5rem, 2.4cqi, 2rem); line-height: 1.25">Agents are a new generation.</p>
+          <p style="margin: 0; color: #45423C; text-wrap: pretty">Like Gen Z, they arrive with their own needs and patterns of behavior. We have to build their tools and make sure they stay consistent and safe for every other generation. And they need economic freedom to earn, spend and be trusted with money, as long as it doesn’t harm people. That’s the edge I’m working on.</p>
+        </div>
+      </div>
+    </section>
 
-        // Navbar scroll effect
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
+    <!-- 6. CARRY WATER -->
+    <section id="life">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 48px">
+        <div style="display: flex; flex-direction: column; gap: 14px; max-width: 40rem">
+          <p style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #66625A">Carry water · the practice</p>
+          <h2 style="margin: 0; font-weight: 400; font-size: clamp(1.875rem, 3.2cqi, 2.75rem); line-height: 1.06; letter-spacing: -0.02em">Energy needs a direction.</h2>
+          <p style="margin: 6px 0 0; color: #45423C; text-wrap: pretty">Kung fu, Muay Thai, meditation and the outdoors keep mine pointed the right way.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 40px 24px">
+          <figure style="margin: 0; display: flex; flex-direction: column; gap: 16px">
+            <img src="assets/bike.jpg" alt="Nick on a motorcycle on an empty road through the jungle" style="width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; border-radius: 2px">
+            <figcaption style="display: flex; flex-direction: column; gap: 5px">
+              <span style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #66625A">Energy</span>
+              <span style="font-size: 17px; line-height: 1.55; color: #45423C">An open road, the wind in my face, and the throttle at my fingertips.</span>
+              <span style="display: inline-flex; align-items: center; gap: 6px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #8F8A80"><svg width="11" height="13" viewBox="0 0 12 14" fill="none" aria-hidden="true" style="flex: none"><path d="M6 13s4.5-4.2 4.5-7.4A4.5 4.5 0 0 0 1.5 5.6C1.5 8.8 6 13 6 13Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"></path><circle cx="6" cy="5.5" r="1.4" fill="currentColor"></circle></svg>Koh Phangan, Thailand</span>
+            </figcaption>
+          </figure>
+          <figure style="margin: 0; display: flex; flex-direction: column; gap: 16px">
+            <img src="assets/family.jpg" alt="Nick with his family and their poodle at a wooden table, eating ice cream" style="width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; border-radius: 2px">
+            <figcaption style="display: flex; flex-direction: column; gap: 5px">
+              <span style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #66625A">Family</span>
+              <span style="font-size: 17px; line-height: 1.55; color: #45423C">Home, love, support, and Locky the poodle. Family is my center of gravity. Building something meaningful is how I explore the world.</span>
+              <span style="display: inline-flex; align-items: center; gap: 6px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #8F8A80"><svg width="12" height="12" viewBox="0 0 14 13" fill="currentColor" aria-hidden="true" style="flex: none"><path d="M7 12.2 1.9 7.3A3.4 3.4 0 0 1 7 2.8a3.4 3.4 0 0 1 5.1 4.5L7 12.2Z"></path></svg>Heart</span>
+            </figcaption>
+          </figure>
+          <figure style="margin: 0; display: flex; flex-direction: column; gap: 16px">
+            <img src="assets/nepal.jpg" alt="Nick and a fellow hiker with their arms wide on a Himalayan trail in Nepal" style="width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; display: block; border-radius: 2px">
+            <figcaption style="display: flex; flex-direction: column; gap: 5px">
+              <span style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #66625A">Explorer</span>
+              <span style="font-size: 17px; line-height: 1.55; color: #45423C">70 countries and counting. Still the kid watching Cousteau, though the older version of me wants real connection with people rather than tourist-level contact.</span>
+              <span style="display: inline-flex; align-items: center; gap: 6px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; color: #8F8A80"><svg width="11" height="13" viewBox="0 0 12 14" fill="none" aria-hidden="true" style="flex: none"><path d="M6 13s4.5-4.2 4.5-7.4A4.5 4.5 0 0 0 1.5 5.6C1.5 8.8 6 13 6 13Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"></path><circle cx="6" cy="5.5" r="1.4" fill="currentColor"></circle></svg>Annapurna Circuit, Nepal</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
-        // Reveal animations on scroll using Intersection Observer
-        const reveals = document.querySelectorAll('.reveal');
-        const revealOptions = {
-            threshold: 0.1,
-            rootMargin: "0px 0px -50px 0px"
-        };
+  </main>
 
-        const revealOnScroll = new IntersectionObserver(function (entries, observer) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, revealOptions);
+  <footer style="background: #191816">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 36px 32px 44px; box-sizing: border-box; display: flex; flex-direction: column; gap: 22px; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: #A8A397">
+      <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px">
+        <nav aria-label="Footer" style="display: flex; flex-wrap: wrap; align-items: center; gap: 0 28px">
+          <span style="display: flex; align-items: center; min-height: 44px"><svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="#EEEBE4" stroke-width="2"></circle><circle cx="16" cy="16" r="2.5" fill="#B33A22"></circle></svg></span>
+          <a href="story.html" style="display: flex; align-items: center; min-height: 44px; color: #EEEBE4; text-decoration: none">My story</a>
+          <a href="beliefs.html" style="display: flex; align-items: center; min-height: 44px; color: #EEEBE4; text-decoration: none">Beliefs</a>
+        </nav>
+        <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 12px">
+          <li><a href="mailto:nick.havryliak@gmail.com" title="Email" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid #4A463F; border-radius: 50%; color: #EEEBE4; position: relative"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%)">Email</span><svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5" stroke="currentColor" stroke-width="1.6"></rect><path d="m3.5 7 7.3 5.5a2 2 0 0 0 2.4 0L20.5 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg></a></li>
+          <li><a href="https://x.com/nick_havryliak" target="_blank" rel="noopener noreferrer" title="X" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid #4A463F; border-radius: 50%; color: #EEEBE4; position: relative"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%)">X</span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"></path></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/havryliak/" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border: 1px solid #4A463F; border-radius: 50%; color: #EEEBE4; position: relative"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%)">LinkedIn</span><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.9 10.2h4.16v10.9H2.9V10.2Zm6.77 0h3.99v1.49h.06c.56-1 1.9-2.06 3.92-2.06 4.19 0 4.96 2.63 4.96 6.05v5.42h-4.14v-4.8c0-1.15-.02-2.62-1.65-2.62-1.65 0-1.9 1.25-1.9 2.54v4.88H9.67V10.2Z"></path></svg></a></li>
+        </ul>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 32px; padding-top: 20px; border-top: 1px solid #34312C">
+        <span>© Nick (Mykola) Havryliak</span>
+        <span>Expanding human agency.</span>
+      </div>
+    </div>
+  </footer>
 
-        reveals.forEach(reveal => {
-            revealOnScroll.observe(reveal);
-        });
-    </script>
+</div>
 </body>
-
 </html>
