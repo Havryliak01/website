@@ -1,7 +1,8 @@
 # Nick Havryliak
 
 Repeat founder, investor, father and explorer. Based in San Francisco.
-Building financial infrastructure for the agent economy (in stealth).
+Building credit infrastructure for AI agents (in stealth): limits that follow how
+each agent behaves, instead of a shared company card with a hand-set limit.
 
 Previously founded Assisterr (2023-2026): $2.8M raised, 5M+ users, 42k AI agents
 deployed, 200+ B2B integrations. Backed by Google for Startups, Outlier Ventures,
@@ -14,6 +15,8 @@ Google for Startups. LP in Dnipro VC and Contango VC; angel in 100+ YC-backed te
 - /            Home: who I am now, the road here, what I'm building
 - /story.html  The full story in seven chapters, from Ivano-Frankivsk to San Francisco
 - /beliefs.html Books, beliefs and talks
+- /llms-full.txt Full text of every page
 
 ## Contact
 nick.havryliak@gmail.com | x.com/nick_havryliak | linkedin.com/in/havryliak
+Teams whose agents spend $20k+ a month: email with subject "Agent spend".
