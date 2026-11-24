@@ -1,0 +1,8 @@
+/* Self-hosted variable fonts (Fontsource 5.3.0, OFL-1.1), latin subset. */
+@font-face{font-family:"Inter Variable";font-style:normal;font-display:swap;font-weight:100 900;src:url(inter-latin-wght-normal.woff2) format("woff2-variations")}
+@font-face{font-family:"Inter Variable";font-style:italic;font-display:swap;font-weight:100 900;src:url(inter-latin-wght-italic.woff2) format("woff2-variations")}
+@font-face{font-family:"Inter Tight Variable";font-style:normal;font-display:swap;font-weight:100 900;src:url(inter-tight-latin-wght-normal.woff2) format("woff2-variations")}
+@font-face{font-family:"Inter Tight Variable";font-style:italic;font-display:swap;font-weight:100 900;src:url(inter-tight-latin-wght-italic.woff2) format("woff2-variations")}
+
+/* Inter Tight for headings, Inter for text and UI */
+:root{--display:"Inter Tight Variable","Inter Variable",sans-serif;--text:"Inter Variable",sans-serif;--ui:"Inter Variable",sans-serif}
